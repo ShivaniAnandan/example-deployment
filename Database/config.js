@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const mongoDBConnectionString = process.env.MONGO_DB_CONNECTION_STRING;
+const mongoDBConnectionString = process.env.mongoDbConnectionString;
 
 const connectDB = async () => {
     try {
